@@ -8,6 +8,7 @@
 
 </head>
 <body>
+
     <nav>
         <div class="hamburger">
             <div class="line"></div>
@@ -16,10 +17,27 @@
         </div>
         <ul class="nav-links">
         <li><a href="#">Home</a></li>
-        <li ><a id="btn2" href="Todo.html">To-Do-List</a></li>
+        <li ><a href="javascript:display();">To-Do-List</a></li>
         <li><a href="index.html">Logout</a></li>
         </ul>
     </nav>
+    <div class="container">
+        <h1 id="title">To-Do-Lists</h1>
+        <!-- table structure -->
+        <table id="our-table">
+            <thead>
+                <tr>
+                    <th>Userid</th>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>Completed</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                
+            </tbody>
+        </table>
+    </div>
 
     <section class="Landing">
         <img src="./images/smiley.jpg" alt="">
