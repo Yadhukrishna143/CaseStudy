@@ -17,7 +17,6 @@ const validate = () => {
     })
 }
 
-
 //////////// main page ////////////////////////////////////
 
 var checkCount = 0;
